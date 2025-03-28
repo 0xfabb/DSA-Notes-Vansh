@@ -15,10 +15,7 @@
 //     }
 // }
 
-
-
 // 2. Simple program to print a square with 4 rows and each row having ABCDE...
-
 
 // #include <iostream>
 // using namespace std;
@@ -38,17 +35,14 @@
 //     }
 // }
 
-
-
 // 3. Simple program to print a square with 4 rows and items as numbers from 1 to 16
-
 
 // #include <iostream>
 // using namespace std;
 
 // int main()
 // {
-    
+
 //     int num = 1;
 //     for (int i = 0; i < 4; i++)
 //     {
@@ -61,6 +55,22 @@
 //     }
 // }
 
+// 4. Simple program to
 
-// 4. Simple program to 
+#include <iostream>
+using namespace std;
 
+int main()
+{
+
+    int num = 1;
+    for (int i = 0; i < 12; i++)
+    {
+        for (int j = 0; j < i + 1; j++)
+        {
+            cout << num << " ";
+        }
+        num = num +1;
+        cout << endl;
+    }
+}
