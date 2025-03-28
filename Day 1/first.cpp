@@ -91,16 +91,6 @@
 // }
 
 
-// 5. Server is the best thing that can be done with 
-
-#include <iostream>
-using namespace std;
-
-int main(){
-    cout << "Hello World";
-    return 0;
-}
-
 
 
 
